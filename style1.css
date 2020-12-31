@@ -1,0 +1,150 @@
+body{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: #222724;
+    color: white;
+    border-bottom: 3px solid royalblue;
+    padding-top: 20px;
+    font-size: 16px;
+}
+header #branding h1{
+    margin:0 ;
+    padding-left: 10px;
+}
+header ul{
+    margin:0 ;
+    padding: 0;
+}
+header p{
+    padding-top: 0;
+    margin-top:0;
+    padding-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li{
+    display: inline;
+    float: left;
+    padding: 0 20px;
+}
+header #branding {
+    float: left;
+}
+header nav{
+    float: right;
+    padding-top:24px;
+}
+.current{
+    font-weight: bold;
+    color:yellowgreen
+}
+.showcase{
+    min-height: 250px;
+    margin-top: 10px;
+    background-image: url('showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+    color: #fff;
+    text-align: center;
+    
+}
+.showcase h1{
+    font-size: 30px;
+}
+.showcase p{
+    font-size: 19px;
+}
+.newsletter{
+    margin-top: 10px;
+    background-color: #010010;
+    color: white;
+    font-size: 14px;
+    min-height: 60px;
+}
+.newsletter p{
+    float:left;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.newsletter form{
+    float: right;
+    padding-top: 10px;
+}
+input[type="email"]{
+    padding: 8px 0;
+}
+input[type="submit"]{
+    padding:8px;
+    background-color: orangered;
+    color: #fff;
+}
+.box{
+    padding-top: 30px;
+    width: 30%;
+    text-align:center;
+    float: left;
+    margin: auto;
+    padding-left: 10px;
+}
+.article{
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    float: left;
+}
+.sidebar{
+    background-color: #888;
+    box-sizing: border-box;
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+}
+.course a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    background-color: rgb(211, 154, 97);
+    text-align: center;
+    font-size: 18px;
+}
+@media(max-width:780px){
+   
+    header #branding{
+        width: 100%;
+        text-align: center;
+    }
+    header nav,header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+}
+.course h2{
+    display: inline; 
+    padding-left: 10px;
+}
+.course img{
+    margin-top: 10px;
+}
